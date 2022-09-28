@@ -33,7 +33,7 @@ namespace OwenGibson
             if (Input.GetButtonDown("Jump"))
             {
                 // TODO Movement 7/8: If they do, then add vertical velocity to our rigidbody to make our character "jump"!
-                rbody2D.velocity = new Vector2(rbody2D.velocity.x, jumpStrength);
+                rbody2D.velocity = new Vector2(rbody2D.velocity.x, jumpStrength); // not sure why jumpStrength is in the y parameter
             }
             // TODO Movement 8/8: Add this script to a game object and make a new prefab from it, and explore the level!
 
