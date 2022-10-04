@@ -9,11 +9,11 @@ namespace OwenGibson
     /// </summary>
     public class SimpleCharacterController : MonoBehaviour
     {
-        [SerializeField] private float horizontalInputValue; // The value of our horizontal input axis.
-        [SerializeField] private SpriteRenderer spriteRenderer; // Our character's sprite.
+        private float horizontalInputValue; // The value of our horizontal input axis.
+        private SpriteRenderer spriteRenderer; // Our character's sprite.
 
         // TODO Movement 1/8: Declare a variable for a reference to our 2D rigidbody, for physics stuff.
-        [SerializeField] private Rigidbody2D rbody2D;
+        private Rigidbody2D rbody2D;
         // TODO Movement 2/8: Declare a variable for the speed we can run at in Unity-units-per-second.
         public float runSpeed = 3f;
         // TODO Movement 3/8: Declare a variable for the strength of our jump.
@@ -22,6 +22,7 @@ namespace OwenGibson
         private void Start()
         {
             rbody2D = GetComponent<Rigidbody2D>();
+            spriteRenderer = GameObject.FindWithTag("SimpleSprite").GetComponent<SpriteRenderer>();
         }
         private void Update()
         {
@@ -42,7 +43,14 @@ namespace OwenGibson
             // TODO Movement Bonus 1: Ensure that our character can only jump if they are "grounded". (Hint: You can use a boolean as a part of this!)
 
             // TODO Movement Bonus 2: Flip our character's sprite so that it faces left/right if we are moving left/right. (Hint: A SpriteRenderer reference, and changing its FlipX = true/false will help!)
-
+            if (horizontalInputValue == 1)
+            {
+                spriteRenderer.flipX = true;
+            }
+            if (horizontalInputValue == -1)
+            {
+                spriteRenderer.flipX = false;
+            }
         }
     }
 }
