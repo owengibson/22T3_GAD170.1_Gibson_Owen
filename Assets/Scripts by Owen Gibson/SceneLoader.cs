@@ -15,7 +15,7 @@ namespace OwenGibson
 
         private void LoadScene(string scene)
         {
-            // TODO Loader 2/4: Call Unity's "SceneManager.LoadScene" method and pass in your scene name variable to its parameters—within the parentheses ( ).
+            // TODO Loader 2/4: Call Unity's "SceneManager.LoadScene" method and pass in your scene name variable to its parametersï¿½within the parentheses ( ).
             SceneManager.LoadScene(scene);
         }
 

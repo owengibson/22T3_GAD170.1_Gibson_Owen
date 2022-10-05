@@ -45,9 +45,9 @@ namespace OwenGibson
                 Debug.Log("Level Up Threshold: " + levelUpThreshold);
             }
             // TODO XP Final: Add code comments describing what you hope your code is doing throughout this script.
-            /* This script will set up the system to store, and calculate XP and levels.
-             * It will first add a random amount of XP (between 50 and 100).
-             * Then it will determine whether or not the character has enough XP to level up. If it does then it will add a level and reset the level up threshold. */
+                /* This script will set up the system to store, and calculate XP and levels.
+                * It will first add a random amount of XP (between 50 and 100).
+                * Then it will determine whether or not the character has enough XP to level up. If it does then it will add a level and reset the level up threshold. */
             // TODO XP Bonus: Adjust our character's stats ("runSpeed" and/or "jumpStrength") based on their level. (Hint: You'll need a reference to the SimpleCharacterController script!)
 
         }
