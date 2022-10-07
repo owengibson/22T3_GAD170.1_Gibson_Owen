@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scripts by Owen Gibson/ProjectOneScene.unity
     guid: 1bc7a5286baf7fc44ba707b6ec09f451
-  - enabled: 1
+  - enabled: 0
     path: Assets/Platformer Framework/Scenes/Platformer (Basic Scene).unity
     guid: afc556a507cd0b54f96394f3b654a8aa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Platformer Framework/Scenes/Platformer (The Pipeworks).unity
     guid: 6c05979eb9f0ab94ca2f86e868b521a1
   m_configObjects: {}

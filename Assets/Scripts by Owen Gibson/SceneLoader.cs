@@ -22,7 +22,7 @@ namespace OwenGibson
         private void OnTriggerEnter2D(Collider2D collision)
         {
             // TODO Loader 3/4: Call your load scene method to load this same scene again (effectively restarting the game).
-            
+                // this is part of the if statement below
             // TODO Loader 4/4: Add this script to a gameobject so that it can restart the game when collided with. (A flag might be good!)
             if (collision.gameObject.tag == "Finish") {
                 LoadScene(sceneName);

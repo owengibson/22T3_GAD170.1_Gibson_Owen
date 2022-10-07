@@ -56,8 +56,8 @@ namespace OwenGibson
                 Debug.Log("Current Level: " + currentLevel);
                 Debug.Log("Current XP: " + currentXP);
                 Debug.Log("Level Up Threshold: " + levelUpThreshold);
-                Debug.Log(characterControllerScript.jumpStrength);
-                Debug.Log(characterControllerScript.runSpeed);
+                Debug.Log("Jump Strength: " + characterControllerScript.jumpStrength);
+                Debug.Log("Run Speed: " + characterControllerScript.runSpeed);
             }
             // TODO XP Final: Add code comments describing what you hope your code is doing throughout this script.
                 /* This script will set up the system to store, and calculate XP and levels.

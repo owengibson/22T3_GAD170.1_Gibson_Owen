@@ -12,7 +12,7 @@ namespace OwenGibson
         private float horizontalInputValue; // The value of our horizontal input axis.
         private SpriteRenderer spriteRenderer; // Our character's sprite.
         private LayerMask groundLayerMask;
-        [SerializeField] private bool isGrounded = false;
+        private bool isGrounded = false;
 
         // TODO Movement 1/8: Declare a variable for a reference to our 2D rigidbody, for physics stuff.
         private Rigidbody2D rbody2D;
